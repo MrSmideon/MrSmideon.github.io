@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.header {
+    background-color: #9381ff;
+    padding: 0px;
+    overflow: auto;
+}
+
+#logo {
+  float: left;
+  padding: 10px;
+}
+
+#Name {
+    font-size: 50px;
+    float: left;
+    padding: 20px;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+}
+
+#Portfolio {
+    float: right;
+    padding: 30px;
+    font-size: 40px;
+    font-family: "Red Rose", serif;
+    font-weight: 400;  
+}
+
+#About_Me {
+    float: right;
+    padding: 30px;
+    font-size: 40px;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+}
+
+#AM_Head {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+}
+
+body {  
+    background-color: #f8f7ff;
+    margin: 0;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  #skills {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+  }
+
+  #background {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+  }
+
+#info {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Red Rose", serif;
+    font-weight: 400; 
+}
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    border-right: solid;
+    border-width: 1px;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }

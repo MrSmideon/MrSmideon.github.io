@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background-color: #9381ff;
+    padding: 0px;
+    overflow: auto;
+  }
+  
+  #logo {
+    float: left;
+    padding: 10px;
+  }
+
+  #Name {
+    font-size: 50px;
+    float: left;
+    padding: 20px;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+  }
+  
+  #Portfolio {
+    float: right;
+    padding: 30px;
+    font-size: 40px; 
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+  }
+  
+  #About_Me {
+    float: right;
+    padding: 30px;
+    font-size: 40px;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+  }
+  
+  #P_Head {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+  }
+  
+  body {  
+    background-color: #f8f7ff;
+    margin: 0;
+  }
+  
+  a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Red Rose", serif;
+    font-weight: 400;
+  }
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Red Rose", serif;
+    font-weight: 400;
+  }
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Red Rose", serif;
+    font-weight: 400;
+  }
+  a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Red Rose", serif;
+    font-weight: 400;
+  }
+  span {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid;
+    border-width: 1px;
+    padding: 5px;
+  }
+  
+  #sections {
+    text-align: center;
+    font-family: "Red Rose", serif;
+    font-weight: 400;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle; 
+  }
+  
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
