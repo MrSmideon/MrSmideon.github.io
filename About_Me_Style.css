@@ -19,6 +19,7 @@
     padding: 20px;
     font-family: "Red Rose", serif;
     font-weight: 400; 
+    margin-bottom: 5px;
 }
 
 #Portfolio {
@@ -103,4 +104,11 @@ a:link {
     content: "";
     display: table;
     clear: both;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: dashed;
   }
