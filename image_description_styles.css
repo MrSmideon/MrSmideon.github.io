@@ -19,26 +19,26 @@
     padding: 20px;
     font-family: "Red Rose", serif;
     font-weight: 400; 
-    margin-bottom: 5px;
 }
 
 #Portfolio {
     float: right;
-    padding: 30px;
-    font-size: 40px;
-    font-family: "Red Rose", serif;
-    font-weight: 400;  
-}
-
-#About_Me {
-    float: right;
-    padding: 30px;
+    padding: 30px; 
     font-size: 40px;
     font-family: "Red Rose", serif;
     font-weight: 400; 
 }
 
-#AM_Head {
+#About_Me {
+    float: right;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+}
+
+#MP_Head {
     text-align: center;
     font-size: 30px;
     font-family: "Red Rose", serif;
@@ -61,7 +61,7 @@ a:link {
     text-decoration: none;
   }
   a:hover {
-    color: rgb(255, 255, 255);
+    color:  #9381ff;
     background-color: transparent;
     text-decoration: none;
   }
@@ -71,44 +71,56 @@ a:link {
     text-decoration: none;
   }
 
-  #skills {
+  #D_Head {
     text-align: center;
-    font-size: 15px;
+    font-size: 30px;
     font-family: "Red Rose", serif;
     font-weight: 400; 
   }
 
-  #background {
-    text-align: center;
-    font-size: 15px;
-    font-family: "Red Rose", serif;
-    font-weight: 400; 
-  }
-
-#info {
-  text-align: center;
-  font-size: 15px;
-  font-family: "Red Rose", serif;
-    font-weight: 400; 
-}
-
-  .column {
-    float: left;
-    width: 50%;
-    padding: 15px;
-    border-right: solid;
-    border-width: 1px;
-  }
-  
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  img {
+  #tall_container {
+    max-width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: dashed;
+    background-color: #9381ff;
   }
+
+  #wide_container{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#text_box {
+    float: left;
+    max-width: 48%
+}
+
+  #name {
+    font-size: 30px;
+    margin-top: -2px;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+  }
+
+  #description {
+    font-size: 20px;
+    font-family: "Red Rose", serif;
+    font-weight: 375;
+    margin-top: -1px;
+  }
+
+  #tall_image {
+    max-width: 50%;
+    float: right;
+  }
+  
+  #back_button {
+    margin-left: 25px;
+    margin-top: 0px;
+    font-family: "Red Rose", serif;
+    font-weight: 400;
+  }
+

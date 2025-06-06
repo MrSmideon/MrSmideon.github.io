@@ -167,4 +167,10 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    font-family: "Red Rose", serif;
+    font-weight: 400; 
+  }
+
+  video {
+    margin-top: 9px;
   }
